@@ -5,3 +5,4 @@ Recursos:
 * NLTK
 * Pandas
 * NumPy
+* codecs
