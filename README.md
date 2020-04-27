@@ -10,7 +10,7 @@ Recursos:
 
 Os scripts foram desenvolvidos no Visual Studio Code. Para testá-los é preciso ficar atento com o encoding do arquivo txt, o qual foi utilizado para preencher a base de dados. Deixar sempre no formato UTF-8, para que o interpretador consiga reconhecer os acentos, ç, entre outros ao chamar o método print().
 
-O próximo passo é incluir a diretiva ```# -*- coding: utf-8 -*-``` na primeira linha do arquivo do código-fonte, pois posteriormente será utilizado codecs para ler o arquivo txt conforme o encoding configurado no passo anterior.
+O próximo passo é incluir a diretiva ```# -*- coding: utf-8 -*-``` no início do arquivo do código-fonte, pois posteriormente será utilizado codecs para ler o arquivo txt conforme o encoding configurado no passo anterior.
 
 ATENÇÃO: sempre chamar close() caso o arquivo não seja mais utilizado para assim economizar memória.
 
