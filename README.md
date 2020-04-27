@@ -14,6 +14,6 @@ O próximo passo é incluir a diretiva ```# -*- coding: utf-8 -*-``` no início 
 
 ATENÇÃO: sempre chamar close() caso o arquivo não seja mais utilizado para assim economizar memória.
 
-No Google Colab não será necessário importar a biblioteca codecs nem incluir a diretiva, pois o servidor já possui interpretador previamente configurado para ler qualquer enconding do arquivo automaticamente, basta utilizar ```open('BaseTreinamento.txt', encoding='utf-8')```.
+No Google Colab não será necessário importar a biblioteca codecs nem incluir a diretiva, pois o servidor já possui interpretador previamente configurado para ler qualquer enconding do arquivo automaticamente, basta utilizar ```open('BaseTreinamento.txt', encoding='utf-8')```. Novamente, não esquecer de deixar o encoding configurado no arquivo conforme citado no primeiro passo.
 
 Dicas de como conseguir mais stopwords: https://gist.github.com/alopes/5358189
